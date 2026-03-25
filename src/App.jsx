@@ -185,7 +185,7 @@ const TruckDetails = () => {
               <p>{truck.Слабые_стороны}</p>
             </div> */}
 
-            <div className="info-section-item" style={{ background: '#fdfaf1', padding: '20px', borderRadius: '12px', border: '1px solid #fef08a' }}>
+            {/* <div className="info-section-item" style={{ background: '#fdfaf1', padding: '20px', borderRadius: '12px', border: '1px solid #fef08a' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px', color: '#854d0e' }}>
                 <FileText size={20} color="#eab308" /> <strong style={{ fontSize: '18px' }}>Предложения</strong>
               </div>
@@ -193,7 +193,7 @@ const TruckDetails = () => {
                 <p>{truck.Предложения} </p>
                 {truck.img2 && <img src={truck.img2} alt="" width={235} height={"auto"} />}
               </div>
-            </div>
+            </div> */}
 
             {/* --- KONKURENTLAR KARTALARI --- */}
             {/* {truck.competitors && truck.competitors.length > 0 && (
